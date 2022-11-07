@@ -37,7 +37,6 @@
 }
 
 .page {
-  background-color: var(--primary-bkgcolor);
   font-size: 14px;
   font-family: var(--main-font);
   letter-spacing: 0.03em;
@@ -263,7 +262,7 @@ img {
 /*Features*/
 
 .features {
-  background-color: var(--primary-bkgcolor);
+
   padding-bottom: 0;
 }
 
@@ -315,10 +314,6 @@ img {
 }
 
 /*Services*/
-
-.services {
-  background-color: var(--primary-bkgcolor);
-}
 
 .section-title {
   font-weight: 700;
@@ -387,7 +382,7 @@ img {
 .social-links {
   width: 44px;
   height: 44px;
-  background-color: var(--primary-bkgcolor);
+  background-color: var(--hero-color) ;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -411,10 +406,6 @@ img {
   display: flex;
   gap: 30px;
   justify-content: center;
-}
-
-.clients {
-  background-color: var(--primary-bkgcolor);
 }
 
 .clients-icon {
@@ -446,6 +437,20 @@ img {
   padding-bottom: 60px;
 }
 
+
+.logo-footer {
+  font-style: Bold;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--link-active);
+    text-decoration: none;
+    font-family: var(--logo-font);
+    line-height: 1.19;
+    display: block;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
 .logo-accent {
   color: var(--hero-color);
   font-family: var(--logo-font);
@@ -555,6 +560,16 @@ img {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   padding: 20px 24px 20px 24px;
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.portfolio-link {
+  display: block;
+  text-decoration: none;
 }
 
 .project-name {
